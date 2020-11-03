@@ -1,0 +1,28 @@
+@media (min-width: 800px) {
+  .text-box {
+    width: 100%;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    color: var(--mainText);
+  }
+  .text-boxD {
+    width: 100%;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    color: var(--mainTextD);
+  }
+}
+
+.text-box {
+  width: 100%;
+  font-size: 13px;
+  color: var(--mainText);
+  font-family: "Nunito", sans-serif;
+}
+
+.text-boxD {
+  width: 100%;
+  font-size: 13px;
+  color: var(--mainTextD);
+  font-family: "Nunito", sans-serif;
+}

@@ -1,0 +1,33 @@
+.form-wrapper {
+}
+.submit {
+  background-color: var(--buttonColorSubmit) !important;
+  width: 150px;
+  color: var(--secondaryText) !important;
+}
+
+.save {
+  background-color: var(--buttonColorSave) !important;
+  width: 150px;
+  color: var(--secondaryText) !important;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: var(--inputPlaceholder) !important;
+}
+/**/
+
+.submitD {
+  background-color: var(--buttonColorSubmitD) !important;
+  width: 150px;
+  color: var(--secondaryTextD) !important;
+}
+
+.saveD {
+  background-color: var(--buttonColorSaveD) !important;
+  width: 150px;
+  color: var(--secondaryTextD) !important;
+}
+.alert {
+  font-size: 10px;
+}

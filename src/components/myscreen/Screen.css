@@ -1,0 +1,92 @@
+.screen {
+  margin: 0px;
+  padding: 20px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: var(--mainColor);
+}
+.screenD {
+  margin: 0px;
+  padding: 20px;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: var(--mainColorD);
+}
+.theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-wrapper {
+  margin-left: 2%;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--titleText);
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 0px;
+}
+.titleD {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--titleTextD);
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 0px;
+}
+.theme-switch {
+  margin-right: 1%;
+  font-size: 15px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: 30px;
+    color: var(--titleText);
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0px;
+  }
+  .titleD {
+    font-size: 30px;
+    color: var(--titleTextD);
+    font-weight: bolder;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .theme-switch {
+    margin-right: 1%;
+    font-size: 25px;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  .screen {
+    margin: 0px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+    background-color: var(--mainColor);
+  }
+  .screenD {
+    margin: 0px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+    background-color: var(--mainColorD);
+  }
+}
+.darkIcon {
+  color: var(--iconColor);
+}
+.darkIconD {
+  color: var(--iconColorD);
+}

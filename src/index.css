@@ -1,13 +1,42 @@
+:root {
+  --mainColor: #eaebea;
+  --secondaryColor: #4d544e;
+  --borderColor: #c1c1c1;
+  --mainText: #3e3e3e;
+  --titleText: #3e3e3e;
+  --secondaryText: #fff;
+  --navColor: #d2d2d2;
+  --buttonColorSubmit: #f97b90;
+  --buttonColorSave: #894c75;
+  --scrollTrack: #f8f9fa;
+  --iconColor: #000;
+  --inputColor: #fff;
+  --inputPlaceholder: #c1c1c1;
+
+  /******DARK MODE ******/
+  --mainColorD: black;
+  --secondaryColorD: #4d544e;
+  --borderColorD: gray;
+  --mainTextD: #d2d2d2;
+  --titleTextD: #b180f0;
+  --secondaryTextD: #000;
+  --navColorD: #d2d2d2;
+  --buttonColorSubmitD: #02dac6;
+  --buttonColorSaveD: #ba86fc;
+  --scrollTrackD: black;
+  --iconColorD: #ffa500;
+  --inputColorD: #414141;
+  --inputPlaceholderD: #fff;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
